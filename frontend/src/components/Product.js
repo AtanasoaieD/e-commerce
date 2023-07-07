@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Rating from './Rating';
-import { Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
-//return product description
+//return products main page
 const Product = ({ product }) => {
   return (
     <Card className="h-100">
-      <Link to={`/product/${product._id}`}>
+      <Link to={`/products/${product._id}`}>
         <Card.Img src={product.image} variant="top" />
       </Link>
 

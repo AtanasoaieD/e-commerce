@@ -2,11 +2,11 @@ const products = [
   {
     _id: '1',
     name: 'Commencal Meta tr ',
-    image: './images/commencal-meta-tr.jpg',
+    image: '/images/commencal-meta-tr.jpg',
     description: 'Full suspension bike',
     brand: 'Commencal',
     price: '3500$',
-    countInStock: 2,
+    countInStock: 3,
     rating: 5.0,
     numReviews: 4,
   },
@@ -14,7 +14,7 @@ const products = [
   {
     _id: '2',
     name: 'Trek Marlin ',
-    image: './images/marlin8.jpeg',
+    image: '/images/marlin8.jpeg',
     description: 'Hardtail',
     brand: 'Trek',
     price: '4000$',
@@ -26,7 +26,7 @@ const products = [
   {
     _id: '3',
     name: 'Norco Range',
-    image: './images/norco-range.jpg',
+    image: '/images/norco-range.jpg',
     description: 'Full-Suspension',
     brand: 'Norco',
     price: '2000$',
@@ -37,7 +37,7 @@ const products = [
   {
     _id: '4',
     name: 'NukeProof Scout',
-    image: './images/np-scout-290.jpg',
+    image: '/images/np-scout-290.jpg',
     description: 'HardTail',
     brand: 'Nukeproof',
     price: '1500$',
@@ -48,7 +48,7 @@ const products = [
   {
     _id: '5',
     name: 'Trek Roscoe',
-    image: './images/trek-roscoe-8.jpg',
+    image: '/images/trek-roscoe-8.jpg',
     description: 'HardTail',
     brand: 'Trek',
     price: '1800$',
