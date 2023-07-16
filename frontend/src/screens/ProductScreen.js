@@ -15,6 +15,7 @@ import axios from 'axios';
 //
 
 const ProductScreen = () => {
+  //fetch product from backend
   const [product, setProduct] = useState({});
   const { id } = useParams();
   useEffect(() => {
