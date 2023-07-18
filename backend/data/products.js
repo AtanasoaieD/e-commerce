@@ -57,8 +57,8 @@ const products = [
     numReviews: 6,
   },
 ];
-//commonjs
-module.exports = products;
+
+export default products;
 
 // react
 // export default products;
