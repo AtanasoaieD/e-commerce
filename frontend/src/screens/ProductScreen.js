@@ -14,15 +14,16 @@ import Rating from '../components/Rating';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { listProductDetails } from '../actions/productActions.js';
-//
+import { useParams } from 'react-router-dom';
 
 const ProductScreen = ({ match }) => {
+  const { id } = useParams();
   const dispatch = useDispatch();
   const productDetails = useSelector((state) => state.productDetails);
   const { loading, error, product } = productDetails;
 
   useEffect(() => {
-    dispatch(listProductDetails(match.params.id));
+    dispatch(listProductDetails(`${id}`));
   }, [dispatch, match]);
 
   return (
